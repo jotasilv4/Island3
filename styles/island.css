@@ -1,0 +1,72 @@
+#island-box {
+  margin: 0 60px 10px 60px;
+}
+
+#island-box.hidden {
+  opacity: 0;
+}
+
+#island-box.hideshow {
+  opacity: 1;
+  margin-top: 40px;
+}
+
+#island-content {
+  background-color: var(--shadow);
+  min-height: 40px;
+  min-width: 256px;
+  border-radius: 0 0 20px 20px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#island-compact {
+  font-weight: bold;
+  transition: all 0.5s cubic-bezier(0.5, 0.25, 0, 1.25);
+  padding: 10px;
+}
+
+#island-corner-left {
+  margin-left: -16px;
+}
+
+#island-corner-right {
+  margin-right: -16px;
+}
+
+#compact-mpris-icon-label {
+  color: var(--primary);
+}
+
+#compact-mpris-icon-label,
+#compact-mpris-button-label {
+  font-size: 20px;
+}
+
+#compact-mpris-icon,
+#compact-mpris-button {
+  margin: 0 10px;
+}
+
+#compact-mpris-icon:hover,
+#compact-mpris-button:hover {
+  background-color: var(--primary);
+}
+
+#compact-mpris-icon:active,
+#compact-mpris-button:active {
+  background-color: var(--primary);
+}
+
+#compact-mpris-icon:hover #compact-mpris-icon-label,
+#compact-mpris-button:hover #compact-mpris-button-label {
+  color: var(--background);
+}
+
+#hyprland-window label {
+  margin-left: 3px;
+  font-size: 12px;
+}
+#icon-label {
+  font-size: 16px;
+  padding-left: 5px;
+}

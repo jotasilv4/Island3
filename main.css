@@ -1,0 +1,34 @@
+@import url("./styles/colors.css");
+@import url("./styles/shadows.css");
+@import url("./styles/bar.css");
+@import url("./styles/island.css");
+@import url("./styles/dock.css");
+@import url("./styles/i3.css");
+@import url("./styles/dashboard.css");
+@import url("./styles/buttons.css");
+@import url("./styles/pins.css");
+@import url("./styles/kanban.css");
+@import url("./styles/calendar.css");
+@import url("./styles/controls.css");
+@import url("./styles/launcher.css");
+@import url("./styles/notifications.css");
+@import url("./styles/wallpapers.css");
+@import url("./styles/overview.css");
+@import url("./styles/emoji.css");
+@import url("./styles/player.css");
+@import url("./styles/bluetooth.css");
+@import url("./styles/power.css");
+@import url("./styles/metrics.css");
+@import url("./styles/tools.css");
+* {
+  all: unset;
+  color: var(--foreground);
+  font-size: 10pt;
+  font-family: "Cantarell Bold";
+  border-radius: 16px;
+}
+
+@import url("./styles/widgets.css");
+menu > menuitem > label {
+  font-weight: bold;
+}

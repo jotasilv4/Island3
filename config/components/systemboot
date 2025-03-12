@@ -1,0 +1,6 @@
+#!/bin/sh
+
+INSTALL_DIR="$HOME/.config/Island3"
+python "$INSTALL_DIR/main.py" > /dev/null &
+
+picom --config ~/.config/picom/picom.conf &
